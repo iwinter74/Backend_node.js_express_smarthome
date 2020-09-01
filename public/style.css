@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    color: #1F3F68;
+}
+body {
+    overflow-y: visible;
+    overflow-x: hidden;
+    position: relative;
+}
+.hidden {
+    display: none;
+}
+.show {
+    display: block
+}
+.nav_hidden {
+    right: -20%
+}
+.nav_shown {
+    right: 4em
+}
+.top nav {
+    position: absolute;
+    background: #1F3F68;
+    color: white;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    opacity: 0.5;
+    z-index: 1;
+    text-align: right;
+    transition: right 1.2s ease-in-out;
+}
+.top nav ul {
+    padding: 1em 2em 2em 2em;
+    text-align: left;
+}
+.top nav a {
+    color: white;
+    text-decoration: none;
+    line-height: 150%;
+    font-size: 2em;
+}
+.navi:hover {
+    color: #1F3F68;
+    background: white;
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3em 4em;
+}
+#hero {
+    background: url("Rectangle.png") right/cover no-repeat;
+}
+#illustration {
+    padding: 5em 0 24em 10em;
+    position: relative;
+}
+#illustration h1 {
+    font-size: 3em;
+    letter-spacing: 0.04em;
+    line-height: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#illustration img {
+    position: absolute;
+    top: 5em;
+    right: 1em;
+    width: 50%
+}
+#illustration div {
+    width: 50%;
+    padding-bottom: 2em;
+}
+#illustration div p {
+    width: 70%;
+    margin: 4em 0 6em 0
+}
+#illustration div a {
+    background: #5A98D0;
+    box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    padding: 1em 3em;
+}
+#whatwedo {
+    position: relative;
+}
+#whatwedo article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 8em 0;
+}
+#whatwedo img {
+    display: block;
+}
+#whatwedo h2 {
+    font-size: 2em;
+    letter-spacing: 0.04em;
+    line-height: 150%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    left: 5em;
+    width: 25%;
+    color: #316099
+}
+#dragon {
+    text-align: center;
+    padding-bottom: 60em
+}
+#project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 100em
+}
+#project article:first-of-type {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    padding-bottom: 2em;
+}
+#project article:first-of-type p {
+    padding-left: 4em;
+    width: 70%
+}
+#groups {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#groups img {
+    padding: 3em;
+}
+footer img {
+    position: absolute;
+    bottom: 0
+}
+#title {
+    background: url("title.png") center/cover no-repeat;
+    height: 40vh
+}
+#all, #popular, #search {
+    text-align: center;
+    padding-top: 3em
+}
+#all {
+    padding-bottom: 60em
+}
+#search input {
+    width: 50%;
+    padding: 0.5em 1em;
+    background: #F4F4F4;
+    border-radius: 10px;
+    border: 1px solid #F4F4F4;
+    position: relative
+}
+#title_contact {
+    background: url("title_contact_us.png") center/cover no-repeat;
+    height: 40vh
+}
+#contact img {
+    display: block;
+}
+#contact {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2em;
+    padding-bottom: 60em
+}
+#contact article {
+    padding-left: 10em;
+    padding-top: 8em
+}
+
+
+
+
+
